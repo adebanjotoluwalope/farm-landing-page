@@ -1,5 +1,13 @@
+import "./app.scss"
+import Hero from "./components/hero/hero"
+
 const App = () => {
-  return <div>Hello World</div>;
+  return <div>
+    <section>
+      <Hero />
+    </section>
+   
+  </div>;
 };
 
-export default App;
+export default App;                              
